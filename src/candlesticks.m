@@ -1,4 +1,4 @@
-function [bull bear neutral] = candlesticks(Open,High,Low,Close)
+function [bull, bear, neutral] = candlesticks(Open,High,Low,Close)
 %CANDLESTICKS calculates various types of candlesticks
 % 
 % Description
