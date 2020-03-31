@@ -193,4 +193,4 @@ load disney.mat
 
 For an in depth analysis of how many of these candlesticks work, refer to one of the following websites or Google it.
 
-- http://www.candlesticker.com/
+- [candlesticker.com](http://www.candlesticker.com/)
