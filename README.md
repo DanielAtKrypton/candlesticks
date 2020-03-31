@@ -185,11 +185,11 @@ load disney.mat
 
 % The following command produces same output as the above command because map is the default output format.
 options = struct('outputFormat', "map");
-[bull, bear, neutral] = candlesticks(dis_OPEN, dis_HIGH, dis_LOW, options);
+[bull, bear, neutral] = candlesticks(dis_OPEN, dis_HIGH, dis_LOW, dis_CLOSE, options);
 
 % To have independent signals with the same length as OHLC table use the following:
 options = struct('outputFormat', "signals");
-[bullSignals, bearSignals, neutralSignals] = candlesticks(dis_OPEN, dis_HIGH, dis_LOW, options);
+[bullSignals, bearSignals, neutralSignals] = candlesticks(dis_OPEN, dis_HIGH, dis_LOW, dis_CLOSE, options);
 ```
 
 ## To Do
