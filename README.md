@@ -23,7 +23,7 @@ Since the early days of the Japanese rice traders, candlestick charting has grow
 ## Syntax
 
 ```matlab
-[bull bear neutral] = candlesticks(open,high,low,close)
+[bull, bear, neutral] = candlesticks(open,high,low,close)
 Inputs
 open - open price
 high - high price
