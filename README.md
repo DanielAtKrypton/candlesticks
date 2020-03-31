@@ -53,11 +53,6 @@ this code does not check for that
 load disney.mat 
 [bull bear neutral] = candlesticks(dis_OPEN,dis_HIGH,dis_LOW,dis_CLOSE);
 ```
-Version : 1.0 (11/02/2011) 
-Author : Nate Jensen 
-Created : 10/25/2011 
-History : 
-- v1.0 11/02/2011 : initial release
 
 ## To Do 
 - add more candlesticks
