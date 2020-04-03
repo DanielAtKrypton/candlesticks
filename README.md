@@ -12,7 +12,8 @@ Candlesticks pattern detection for MATLAB.
 6. [Notes](#notes)
 7. [Example](#example)
 8. [ToDo](#todo)
-9. [Further Information](#further-information)
+9. [Tests](#tests)
+10. [Further Information](#further-information)
 
 ## Acknowledgements
 
@@ -195,7 +196,14 @@ options = struct('outputFormat', "signals");
 ## To Do
 
 - add more candlesticks
-- add test suite
+
+## Tests
+
+Run the following command to test this library.
+
+```matlab
+testResults = runtests('TestCandlesticks')
+```
 
 ## Further Information
 
